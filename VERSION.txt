@@ -1,0 +1,15 @@
+SALARINI FIRMWARE v11.1
+ESP32-C5 All-In-One low-resource security UI
+
+Highlights:
+- Hardware LCD rotation with enlarged shared-SPI DMA line buffer for 480px landscape flushes.
+- FT6336 touch mapping follows saved rotation.
+- Fixed header with back navigation.
+- Single vertical content scroller.
+- Wi-Fi scan list supports many AP rows without nested scroll.
+- Wi-Fi selection is separate from Wi-Fi connection/password entry.
+- Low-cost passive channel monitor graph.
+- Startup overlay removed.
+- Exploit-named modules are lab/simulation-only; passive Wi-Fi analysis and normal STA connection are functional.
+
+UI refresh: 50 FPS target; scan rows use one label each to reduce LVGL object count.
